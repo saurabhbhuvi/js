@@ -57,7 +57,10 @@ console.log(typeof anotherId);
 // stack Memory (primitive) issme copy milta hai variable ka.
 //Heap Memory (Non-Primitive ) reference of original value.
 
-// stack memory 
+
+
+//+++++++++++++++++++++  stack memory 
+ 
 
 let myYoutubename = "saurabh"
 

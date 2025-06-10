@@ -15,16 +15,17 @@ console.log(valueInNumber);
 let isLoggedIn = "hitesh"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-/  console.log(booleanIsLoggedIn);
+ console.log(booleanIsLoggedIn);
 
 // 1 => true; 0 => false
 // "" => false
 // "hitesh" => true
 
-///let someNumber = 33
+let someNumber = "33ab"
 
-//let stringNumber = String(someNumberconsole.log(stringNumber);
- //console.log(typeof stringNumber);
+let stringNumber = string(someNumber)
+console.log(stringNumber);
+ console.log(typeof stringNumber);
 
 // *********************** Operations ***********************
 
