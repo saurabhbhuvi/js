@@ -90,3 +90,5 @@ console.log(arr2.splice(1,3,100,690,500));
       //    splice(startIndex, deleteCount,addItems1,addItems2,addItems3)     [202, 2004, 20043]  // it will remove the items from the original array and add new items in place of removed items
 
 console.log(arr2); // [200, 100, 690, 500, 3002] // original array is modified
+
+
