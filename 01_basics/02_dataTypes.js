@@ -1,8 +1,8 @@
 "use strict"; // treat all JS Code as newer version
 
-console.log(6 + 9)
+console.log(6 + 9);
 
-console.log("saurabh")
+console.log("saurabh");
 
 let name = "saurabh"
 let age = 22

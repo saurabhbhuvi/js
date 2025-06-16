@@ -1,4 +1,4 @@
-let score = "hitesh"
+let score = "saurabh"
 
 console.log(typeof score);
 console.log(typeof(score));
@@ -12,7 +12,7 @@ console.log(valueInNumber);
 // "33abc" => NaN
 //  true => 1; false => 0
 
-let isLoggedIn = "hitesh"
+let isLoggedIn = "saurabh"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
  console.log(booleanIsLoggedIn);
@@ -23,7 +23,7 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 
 let someNumber = "33ab"
 
-let stringNumber = string(someNumber)
+let stringNumber = String(someNumber)
 console.log(stringNumber);
  console.log(typeof stringNumber);
 
@@ -43,7 +43,7 @@ let negValue = -value
 console.log(2%3);
 
 let str1 = "hello"
-let str2 = " hitesh"
+let str2 = " saurabh"
 
 let str3 = str1 + str2
  console.log(str3);
