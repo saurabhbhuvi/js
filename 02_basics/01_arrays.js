@@ -58,3 +58,35 @@ console.log(typeof newRandom); //  string
 
 
 // slice, splice
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+const arr2 = [200,202,2004,20043,3002]
+
+
+//  Slice:
+// Takes a copy of the array from start to end (end excluded)
+
+// -Does not modify the original array: important
+// -Good for non-destructive operations
+
+console.log(arr.slice(1,4)); // [2, 3, 4]   // slice(startIndex, endIndex) // endIndex is not included
+console.log(arr);  // [1, 2, 3, 4, 5, 6, 7, 8, 9 ] 
+ 
+//++++++++++++++++++ Splice:
+// Takes a start index and delete count, and modifies the original array
+
+// -You can also insert new items at the same time
+// -Good for add/remove/replace
+
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+// const arr2 = [200,202,2004,20043,3002]
+
+
+console.log(arr.splice(1, 3)); // [2, 3, 4]   // splice(startIndex, deleteCount) // it will remove the items from the original array
+// and return the removed items as a new array
+console.log(arr); // [1, 5, 6, 7, 8, 9] // original array is modified
+
+
+console.log(arr2.splice(1,3,100,690,500)); 
+      //    splice(startIndex, deleteCount,addItems1,addItems2,addItems3)     [202, 2004, 20043]  // it will remove the items from the original array and add new items in place of removed items
+
+console.log(arr2); // [200, 100, 690, 500, 3002] // original array is modified
