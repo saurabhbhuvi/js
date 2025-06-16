@@ -26,32 +26,32 @@ const person = {
 
 
 
-// // dot and bracket notation se access karte hain
+// dot and bracket notation se access karte hain
 
-// console.log(person.name); // "saurabh"  // dot notation se access kiya
-// console.log(person["age"]); // 22  // bracket notation se access kiya
+console.log(person.name); // "saurabh"  // dot notation se access kiya
+console.log(person["age"]); // 22  // bracket notation se access kiya
 
-// console.log(person.email); // "saurabh@gmail.com"  // dot notation se access kiya
-// console.log(person["email"]); // "saurabh@gmail.com"  // bracket notation se access kiya
-
-
-// console.log(person[mySym]); // "Symbol(key1)"  // symbol ko key ke roop me use kiya : // square brackets me likha hai
-// console.log(person["full name"]); // "saurabh S"  // space hai to quotes me likhna padta hai and sqare brackets me likha hai 
+console.log(person.email); // "saurabh@gmail.com"  // dot notation se access kiya
+console.log(person["email"]); // "saurabh@gmail.com"  // bracket notation se access kiya
 
 
-// // object me key ko update karte hain
+console.log(person[mySym]); // "Symbol(key1)"  // symbol ko key ke roop me use kiya : // square brackets me likha hai
+console.log(person["full name"]); // "saurabh S"  // space hai to quotes me likhna padta hai and sqare brackets me likha hai 
 
-//  person.email = "saurabh@yahoo.com" // email ko update kiya
-// console.log(person.email); // "saurabh@yahoo.com"  // dot notation se access kiya
 
-// Object.freeze(person) // object ko freeze kar diya, ab isme koi changes nahi kar sakte
+// object me key ko update karte hain
 
-// // lets try to change the email again after freezing the object
+ person.email = "saurabh@yahoo.com" // email ko update kiya
+console.log(person.email); // "saurabh@yahoo.com"  // dot notation se access kiya
+
+Object.freeze(person) // object ko freeze kar diya, ab isme koi changes nahi kar sakte
+
+// lets try to change the email again after freezing the object
  
-// person.email = "saurabh@chatgpt.com" 
-// console.log(person.email);
+person.email = "saurabh@chatgpt.com" 
+console.log(person.email);
 
-// // no changes will be made, it will still print "saurabh@yahoo.com"
+// no changes will be made, it will still print "saurabh@yahoo.com"
 
 
 
