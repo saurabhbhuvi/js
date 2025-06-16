@@ -17,6 +17,7 @@ accountCity = "dc"
 
 console.log(accountId);
 /*  ( // and /* )are used to comment out */
+console.log(accountEmail);
 
 console.table([accountId,accountEmail,accountPassword,accountCity,accountState]);
 // to print all the values we use table instead of writting again and again console.log( ) along with the array
