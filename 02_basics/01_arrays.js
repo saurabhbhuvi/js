@@ -1,3 +1,4 @@
+
 // array
 
 const myArray = [ 264, 209, 208, 151]
