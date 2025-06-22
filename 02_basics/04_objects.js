@@ -41,7 +41,7 @@ const obj3 = {5: "a", 6: "b"}
 // const obj4 = Object.assign({}, obj1, obj2, obj4)
 
 const obj4 = {...obj1, ...obj2}  // spread operator se combine kiya   mostly yahi use karte hai for combining and joining objects
-console.log(obj3);
+console.log(obj4);
 
 const users = [
     {
@@ -66,4 +66,8 @@ console.log(Object.values(tinderUser));  // Object.values() returns an array of 
 console.log(Object.entries(tinderUser)); // Object.entries() returns an array of key-value pairs from the object
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn')); // true, isLoggedIn property exists in tinderUser
+
+
+
+
 
