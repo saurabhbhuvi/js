@@ -72,12 +72,13 @@ console.log(calculateCartPrice(200, 400, 500, 2000)) // [500, 2000] - rest opera
 // val1 and val2 are the first two arguments passed to the function, and num1 is an array of the rest of the arguments passed to the function
 
 
-const user = {
-    username: "hitesh",
-    prices: 199
+const user = {                 //
+    username: "hitesh",       /// object literal syntax
+    prices: 199                // see here its prices and not price and in function its passed as price so it will show undefined
 }
 
-function handleObject(anyobject){
+ //  function to handle object
+function handleObject(anyobject){ 
     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
 }
 
